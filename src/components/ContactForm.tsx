@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { Send } from 'lucide-react';
-import { supabase } from '../lib/supabase';
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({
@@ -10,9 +9,7 @@ export default function ContactForm() {
     company_name: '',
     message: ''
   });
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
-  const [errorMessage, setErrorMessage] = useState('');
+  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success'>('idle');
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({
@@ -21,42 +18,16 @@ export default function ContactForm() {
     });
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    setIsSubmitting(true);
-    setSubmitStatus('idle');
-    setErrorMessage('');
-
-    try {
-      const { error } = await supabase
-        .from('contact_submissions')
-        .insert([
-          {
-            name: formData.name,
-            email: formData.email,
-            phone: formData.phone || null,
-            company_name: formData.company_name || null,
-            message: formData.message
-          }
-        ]);
-
-      if (error) throw error;
-
-      setSubmitStatus('success');
-      setFormData({
-        name: '',
-        email: '',
-        phone: '',
-        company_name: '',
-        message: ''
-      });
-    } catch (error) {
-      setSubmitStatus('error');
-      setErrorMessage('Failed to submit form. Please try again or contact us directly.');
-      console.error('Error submitting form:', error);
-    } finally {
-      setIsSubmitting(false);
-    }
+    setSubmitStatus('success');
+    setFormData({
+      name: '',
+      email: '',
+      phone: '',
+      company_name: '',
+      message: ''
+    });
   };
 
   return (
@@ -163,20 +134,11 @@ export default function ContactForm() {
               </div>
             )}
 
-            {submitStatus === 'error' && (
-              <div className="bg-red-50 border-2 border-red-200 rounded-lg p-4">
-                <p className="text-red-800 font-semibold">
-                  {errorMessage}
-                </p>
-              </div>
-            )}
-
             <button
               type="submit"
-              disabled={isSubmitting}
-              className="w-full bg-[#3d75ef] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#2d5fd0] transition-all hover:shadow-xl hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed inline-flex items-center justify-center space-x-3"
+              className="w-full bg-[#3d75ef] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#2d5fd0] transition-all hover:shadow-xl hover:scale-105 inline-flex items-center justify-center space-x-3"
             >
-              <span>{isSubmitting ? 'Sending...' : 'Send Message'}</span>
+              <span>Send Message</span>
               <Send size={20} />
             </button>
           </form>
