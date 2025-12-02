@@ -16,7 +16,7 @@ export default function Header() {
           <div className="hidden md:flex items-center space-x-8">
             <Link to="/" className="text-gray-700 hover:text-[#2b5fcc] transition-colors font-medium">Home</Link>
             <Link to="/about" className="text-gray-700 hover:text-[#2b5fcc] transition-colors font-medium">About Us</Link>
-            <Link to="/products" className="text-gray-700 hover:text-[#2b5fcc] transition-colors font-medium">Products</Link>
+            <Link to="/products" className="text-gray-700 hover:text-[#2b5fcc] transition-colors font-medium">Product</Link>
             <Link to="/faq" className="text-gray-700 hover:text-[#2b5fcc] transition-colors font-medium">FAQ</Link>
             <Link to="/contact" className="text-gray-700 hover:text-[#2b5fcc] transition-colors font-medium">Contact</Link>
             <a
@@ -41,7 +41,7 @@ export default function Header() {
           <div className="md:hidden pb-6 space-y-4">
             <Link to="/" className="block text-gray-700 hover:text-[#2b5fcc] transition-colors font-medium">Home</Link>
             <Link to="/about" className="block text-gray-700 hover:text-[#2b5fcc] transition-colors font-medium">About Us</Link>
-            <Link to="/products" className="block text-gray-700 hover:text-[#2b5fcc] transition-colors font-medium">Products</Link>
+            <Link to="/products" className="block text-gray-700 hover:text-[#2b5fcc] transition-colors font-medium">Product</Link>
             <Link to="/faq" className="block text-gray-700 hover:text-[#2b5fcc] transition-colors font-medium">FAQ</Link>
             <Link to="/contact" className="block text-gray-700 hover:text-[#2b5fcc] transition-colors font-medium">Contact</Link>
             <a
