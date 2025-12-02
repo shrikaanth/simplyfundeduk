@@ -46,7 +46,7 @@ export default function Footer() {
               </li>
               <li className="flex items-start space-x-3">
                 <Mail className="text-[#3d75ef] flex-shrink-0 mt-1" size={18} />
-                <span className="text-gray-400">info@simplyfunded.co.uk</span>
+                <span className="text-gray-400">applications@simplyfunded.co.uk</span>
               </li>
             </ul>
           </div>
@@ -61,7 +61,7 @@ export default function Footer() {
               ICO Registration: ZB499041 | Direct Funder
             </p>
             <p className="pt-4">
-              © 2024 SimplyFunded. All rights reserved.
+              © 2025 SimplyFunded. All rights reserved.
             </p>
           </div>
         </div>

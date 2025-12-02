@@ -5,7 +5,7 @@ export default function Hero() {
     <section id="home" className="relative pt-32 pb-20 px-4 sm:px-6 lg:px-8 min-h-screen flex items-center">
       <div className="absolute inset-0 z-0">
         <img
-          src="/Banner copy.png"
+          src="https://ik.imagekit.io/6397z4kdz/Banner.png"
           alt="Business Funding Background"
           className="w-full h-full object-cover"
         />
@@ -20,10 +20,10 @@ export default function Hero() {
               <span className="text-[#3d75ef]">UK SMEs</span>
             </h1>
             <p className="text-2xl text-white leading-relaxed drop-shadow-md">
-              Funding direct from the lender — decisions in hours, not weeks.
+              Funding direct from the lender, decisions in hours, not weeks.
             </p>
             <p className="text-3xl font-semibold text-white drop-shadow-md">
-              Get £5,000 – £100,000 within 24 hours.
+              Get £5,000 - £100,000 within 24 hours.
             </p>
             <p className="text-xl text-white/90 drop-shadow-md">
               Quick approval. Minimal paperwork. Built for small and growing businesses.
@@ -33,7 +33,7 @@ export default function Hero() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-4xl mx-auto">
             <div className="flex items-center justify-center space-x-3 bg-white/95 backdrop-blur-sm p-4 rounded-xl shadow-lg">
               <CheckCircle2 className="text-[#3d75ef] flex-shrink-0" size={24} />
-              <p className="font-semibold text-gray-900 text-sm">Quick & simple online application</p>
+              <p className="font-semibold text-gray-900 text-sm">Quick and simple online application</p>
             </div>
             <div className="flex items-center justify-center space-x-3 bg-white/95 backdrop-blur-sm p-4 rounded-xl shadow-lg">
               <Shield className="text-[#3d75ef] flex-shrink-0" size={24} />
@@ -50,13 +50,23 @@ export default function Hero() {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="group bg-[#3d75ef] text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#2d5fd0] transition-all hover:shadow-2xl hover:scale-105 flex items-center justify-center space-x-2">
+            <a
+              href="https://www.simplyfunded.co.uk/application/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group bg-[#3d75ef] text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#2d5fd0] transition-all hover:shadow-2xl hover:scale-105 flex items-center justify-center space-x-2"
+            >
               <span>Apply in 60 Seconds</span>
               <ArrowRight className="group-hover:translate-x-1 transition-transform" size={20} />
-            </button>
-            <button className="bg-white text-[#3d75ef] border-2 border-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#3d75ef] hover:text-white hover:border-[#3d75ef] transition-all hover:shadow-2xl hover:scale-105">
+            </a>
+            <a
+              href="https://www.simplyfunded.co.uk/application/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white text-[#3d75ef] border-2 border-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#3d75ef] hover:text-white hover:border-[#3d75ef] transition-all hover:shadow-2xl hover:scale-105 text-center"
+            >
               Check Eligibility
-            </button>
+            </a>
           </div>
 
           <p className="text-sm text-white/90 italic drop-shadow-md">

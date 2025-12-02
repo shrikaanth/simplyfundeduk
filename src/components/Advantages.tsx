@@ -1,10 +1,10 @@
-import { DollarSign, Calendar, Headphones, Settings, Key } from 'lucide-react';
+import { DollarSign, Calendar, Headphones, Settings, Key, TrendingUp } from 'lucide-react';
 
 export default function Advantages() {
   const advantages = [
     {
       icon: DollarSign,
-      title: 'No Hidden Fees — 100% Transparent Funding',
+      title: 'No Hidden Fees, 100% Transparent Funding',
       description: 'Clear costs, fixed pricing, and no unexpected charges. What you see is what you pay.',
       color: 'from-blue-500 to-blue-600'
     },
@@ -31,6 +31,12 @@ export default function Advantages() {
       title: 'Low-Barrier Approval Process',
       description: 'Unsecured business loans designed for non-homeowners, SMEs with limited collateral, and businesses with mixed credit backgrounds.',
       color: 'from-indigo-600 to-purple-600'
+    },
+    {
+      icon: TrendingUp,
+      title: 'Easy Top-Up',
+      description: 'Get extra cash when you need it with our instant, hassle-free top-ups. Quick approval, same transparent pricing, designed to keep your business moving.',
+      color: 'from-blue-500 to-indigo-500'
     }
   ];
 
@@ -42,7 +48,7 @@ export default function Advantages() {
             Our Core Advantages
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Five powerful reasons why UK SMEs choose SimplyFunded
+            Six powerful reasons why UK SMEs choose SimplyFunded
           </p>
         </div>
 

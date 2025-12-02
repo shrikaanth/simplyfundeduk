@@ -1,4 +1,4 @@
-import { Target, Eye, Heart, Zap } from 'lucide-react';
+import { Target, Eye, Heart, TrendingUp, Shield, Users, Lightbulb } from 'lucide-react';
 
 export default function MissionVision() {
   return (
@@ -67,19 +67,19 @@ export default function MissionVision() {
 
             <div className="grid grid-cols-2 gap-4 mb-8">
               <div className="bg-gradient-to-br from-[#3d75ef] to-[#5d8fff] p-6 rounded-xl text-center">
-                <Zap className="text-white mx-auto mb-2" size={32} />
+                <TrendingUp className="text-white mx-auto mb-2" size={32} />
                 <p className="text-white font-bold text-lg">Fast</p>
               </div>
               <div className="bg-gradient-to-br from-[#3d75ef] to-[#5d8fff] p-6 rounded-xl text-center">
-                <Zap className="text-white mx-auto mb-2" size={32} />
+                <Shield className="text-white mx-auto mb-2" size={32} />
                 <p className="text-white font-bold text-lg">Flexible</p>
               </div>
               <div className="bg-gradient-to-br from-[#3d75ef] to-[#5d8fff] p-6 rounded-xl text-center">
-                <Zap className="text-white mx-auto mb-2" size={32} />
+                <Lightbulb className="text-white mx-auto mb-2" size={32} />
                 <p className="text-white font-bold text-lg">Transparent</p>
               </div>
               <div className="bg-gradient-to-br from-[#3d75ef] to-[#5d8fff] p-6 rounded-xl text-center">
-                <Zap className="text-white mx-auto mb-2" size={32} />
+                <Users className="text-white mx-auto mb-2" size={32} />
                 <p className="text-white font-bold text-lg">Designed for You</p>
               </div>
             </div>

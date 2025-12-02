@@ -19,9 +19,14 @@ export default function Header() {
             <Link to="/products" className="text-gray-700 hover:text-[#3d75ef] transition-colors font-medium">Products</Link>
             <Link to="/faq" className="text-gray-700 hover:text-[#3d75ef] transition-colors font-medium">FAQ</Link>
             <Link to="/contact" className="text-gray-700 hover:text-[#3d75ef] transition-colors font-medium">Contact</Link>
-            <button className="bg-[#3d75ef] text-white px-6 py-2.5 rounded-lg font-semibold hover:bg-[#2d5fd0] transition-all hover:shadow-lg hover:scale-105">
+            <a
+              href="https://www.simplyfunded.co.uk/application/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#3d75ef] text-white px-6 py-2.5 rounded-lg font-semibold hover:bg-[#2d5fd0] transition-all hover:shadow-lg hover:scale-105"
+            >
               Apply Now
-            </button>
+            </a>
           </div>
 
           <button
@@ -39,9 +44,14 @@ export default function Header() {
             <Link to="/products" className="block text-gray-700 hover:text-[#3d75ef] transition-colors font-medium">Products</Link>
             <Link to="/faq" className="block text-gray-700 hover:text-[#3d75ef] transition-colors font-medium">FAQ</Link>
             <Link to="/contact" className="block text-gray-700 hover:text-[#3d75ef] transition-colors font-medium">Contact</Link>
-            <button className="w-full bg-[#3d75ef] text-white px-6 py-2.5 rounded-lg font-semibold hover:bg-[#2d5fd0] transition-all">
+            <a
+              href="https://www.simplyfunded.co.uk/application/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block w-full bg-[#3d75ef] text-white px-6 py-2.5 rounded-lg font-semibold hover:bg-[#2d5fd0] transition-all text-center"
+            >
               Apply Now
-            </button>
+            </a>
           </div>
         )}
       </nav>
