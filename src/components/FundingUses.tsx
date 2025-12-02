@@ -96,7 +96,7 @@ export default function FundingUses() {
               className="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all hover:scale-105 group"
             >
               <div className="flex items-start space-x-4">
-                <div className="bg-gradient-to-r from-[#3d75ef] to-[#5d8fff] w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
+                <div className="bg-gradient-to-r from-[#2b5fcc] to-[#4a7dde] w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
                   <option.icon className="text-white" size={24} />
                 </div>
                 <div>
@@ -113,7 +113,7 @@ export default function FundingUses() {
         </div>
 
         <div className="text-center mt-12">
-          <button className="bg-[#3d75ef] text-white px-10 py-5 rounded-xl font-bold text-lg hover:bg-[#2d5fd0] transition-all hover:shadow-xl hover:scale-105">
+          <button className="bg-[#2b5fcc] text-white px-10 py-5 rounded-xl font-bold text-lg hover:bg-[#1e4ba8] transition-all hover:shadow-xl hover:scale-105">
             Check Eligibility (Won't Affect Credit Score)
           </button>
         </div>

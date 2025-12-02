@@ -4,7 +4,7 @@ export default function Eligibility() {
   return (
     <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
       <div className="max-w-4xl mx-auto">
-        <div className="bg-gradient-to-br from-[#3d75ef] to-[#5d8fff] rounded-3xl p-12 text-white shadow-2xl">
+        <div className="bg-gradient-to-br from-[#2b5fcc] to-[#4a7dde] rounded-3xl p-12 text-white shadow-2xl">
           <div className="text-center mb-12">
             <h2 className="text-4xl lg:text-5xl font-bold mb-4">
               Are You Eligible?
@@ -36,7 +36,7 @@ export default function Eligibility() {
           </div>
 
           <div className="text-center">
-            <button className="group bg-white text-[#3d75ef] px-10 py-5 rounded-xl font-bold text-lg hover:bg-gray-50 transition-all hover:shadow-xl hover:scale-105 inline-flex items-center space-x-3">
+            <button className="group bg-white text-[#2b5fcc] px-10 py-5 rounded-xl font-bold text-lg hover:bg-gray-50 transition-all hover:shadow-xl hover:scale-105 inline-flex items-center space-x-3">
               <span>Check Your Eligibility</span>
               <ArrowRight className="group-hover:translate-x-1 transition-transform" size={20} />
             </button>

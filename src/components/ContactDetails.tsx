@@ -12,7 +12,7 @@ export default function ContactDetails() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all hover:scale-105 text-center">
-            <div className="bg-[#3d75ef] w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-6">
+            <div className="bg-[#2b5fcc] w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-6">
               <Phone className="text-white" size={28} />
             </div>
             <h3 className="text-lg font-bold text-gray-900 mb-3">
@@ -20,14 +20,14 @@ export default function ContactDetails() {
             </h3>
             <a
               href="tel:01642057445"
-              className="text-[#3d75ef] font-semibold text-lg hover:underline"
+              className="text-[#2b5fcc] font-semibold text-lg hover:underline"
             >
               01642 057 445
             </a>
           </div>
 
           <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all hover:scale-105 text-center">
-            <div className="bg-[#3d75ef] w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-6">
+            <div className="bg-[#2b5fcc] w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-6">
               <Mail className="text-white" size={28} />
             </div>
             <h3 className="text-lg font-bold text-gray-900 mb-3">
@@ -35,14 +35,14 @@ export default function ContactDetails() {
             </h3>
             <a
               href="mailto:enquiries@simplyfunded.co.uk"
-              className="text-[#3d75ef] font-semibold hover:underline break-all"
+              className="text-[#2b5fcc] font-semibold hover:underline break-all"
             >
               enquiries@simplyfunded.co.uk
             </a>
           </div>
 
           <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all hover:scale-105 text-center">
-            <div className="bg-[#3d75ef] w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-6">
+            <div className="bg-[#2b5fcc] w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-6">
               <MapPin className="text-white" size={28} />
             </div>
             <h3 className="text-lg font-bold text-gray-900 mb-3">
@@ -57,7 +57,7 @@ export default function ContactDetails() {
           </div>
 
           <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all hover:scale-105 text-center">
-            <div className="bg-[#3d75ef] w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-6">
+            <div className="bg-[#2b5fcc] w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-6">
               <Clock className="text-white" size={28} />
             </div>
             <h3 className="text-lg font-bold text-gray-900 mb-3">

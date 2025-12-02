@@ -7,7 +7,7 @@ export default function MissionVision() {
         <div className="grid lg:grid-cols-2 gap-12 mb-16">
           <div className="bg-white p-10 rounded-3xl shadow-xl hover:shadow-2xl transition-all">
             <div className="flex items-center space-x-4 mb-6">
-              <div className="bg-gradient-to-r from-[#3d75ef] to-[#5d8fff] w-16 h-16 rounded-xl flex items-center justify-center">
+              <div className="bg-gradient-to-r from-[#2b5fcc] to-[#4a7dde] w-16 h-16 rounded-xl flex items-center justify-center">
                 <Target className="text-white" size={32} />
               </div>
               <h2 className="text-3xl font-bold text-gray-900">Our Mission</h2>
@@ -24,19 +24,19 @@ export default function MissionVision() {
 
             <div className="space-y-4">
               <div className="flex items-start space-x-3">
-                <Heart className="text-[#3d75ef] flex-shrink-0 mt-1" size={20} />
+                <Heart className="text-[#2b5fcc] flex-shrink-0 mt-1" size={20} />
                 <p className="text-gray-700">Make business funding simple, accessible, and fair</p>
               </div>
               <div className="flex items-start space-x-3">
-                <Heart className="text-[#3d75ef] flex-shrink-0 mt-1" size={20} />
+                <Heart className="text-[#2b5fcc] flex-shrink-0 mt-1" size={20} />
                 <p className="text-gray-700">Prioritise a business's potential, not its past challenges</p>
               </div>
               <div className="flex items-start space-x-3">
-                <Heart className="text-[#3d75ef] flex-shrink-0 mt-1" size={20} />
+                <Heart className="text-[#2b5fcc] flex-shrink-0 mt-1" size={20} />
                 <p className="text-gray-700">Offer flexible loans that support real-world cashflow</p>
               </div>
               <div className="flex items-start space-x-3">
-                <Heart className="text-[#3d75ef] flex-shrink-0 mt-1" size={20} />
+                <Heart className="text-[#2b5fcc] flex-shrink-0 mt-1" size={20} />
                 <p className="text-gray-700">Build long-term partnerships that fuel sustainable growth</p>
               </div>
             </div>
@@ -51,7 +51,7 @@ export default function MissionVision() {
 
           <div className="bg-white p-10 rounded-3xl shadow-xl hover:shadow-2xl transition-all">
             <div className="flex items-center space-x-4 mb-6">
-              <div className="bg-gradient-to-r from-[#3d75ef] to-[#5d8fff] w-16 h-16 rounded-xl flex items-center justify-center">
+              <div className="bg-gradient-to-r from-[#2b5fcc] to-[#4a7dde] w-16 h-16 rounded-xl flex items-center justify-center">
                 <Eye className="text-white" size={32} />
               </div>
               <h2 className="text-3xl font-bold text-gray-900">Our Vision</h2>
@@ -66,19 +66,19 @@ export default function MissionVision() {
             </p>
 
             <div className="grid grid-cols-2 gap-4 mb-8">
-              <div className="bg-gradient-to-br from-[#3d75ef] to-[#5d8fff] p-6 rounded-xl text-center">
+              <div className="bg-gradient-to-br from-[#2b5fcc] to-[#4a7dde] p-6 rounded-xl text-center">
                 <TrendingUp className="text-white mx-auto mb-2" size={32} />
                 <p className="text-white font-bold text-lg">Fast</p>
               </div>
-              <div className="bg-gradient-to-br from-[#3d75ef] to-[#5d8fff] p-6 rounded-xl text-center">
+              <div className="bg-gradient-to-br from-[#2b5fcc] to-[#4a7dde] p-6 rounded-xl text-center">
                 <Shield className="text-white mx-auto mb-2" size={32} />
                 <p className="text-white font-bold text-lg">Flexible</p>
               </div>
-              <div className="bg-gradient-to-br from-[#3d75ef] to-[#5d8fff] p-6 rounded-xl text-center">
+              <div className="bg-gradient-to-br from-[#2b5fcc] to-[#4a7dde] p-6 rounded-xl text-center">
                 <Lightbulb className="text-white mx-auto mb-2" size={32} />
                 <p className="text-white font-bold text-lg">Transparent</p>
               </div>
-              <div className="bg-gradient-to-br from-[#3d75ef] to-[#5d8fff] p-6 rounded-xl text-center">
+              <div className="bg-gradient-to-br from-[#2b5fcc] to-[#4a7dde] p-6 rounded-xl text-center">
                 <Users className="text-white mx-auto mb-2" size={32} />
                 <p className="text-white font-bold text-lg">Designed for You</p>
               </div>

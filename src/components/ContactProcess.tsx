@@ -6,7 +6,7 @@ export default function ContactProcess() {
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all hover:scale-105">
-            <div className="bg-gradient-to-r from-[#3d75ef] to-[#5d8fff] w-16 h-16 rounded-xl flex items-center justify-center mb-6">
+            <div className="bg-gradient-to-r from-[#2b5fcc] to-[#4a7dde] w-16 h-16 rounded-xl flex items-center justify-center mb-6">
               <Clock className="text-white" size={32} />
             </div>
             <h3 className="text-xl font-bold text-gray-900 mb-4">
@@ -21,7 +21,7 @@ export default function ContactProcess() {
           </div>
 
           <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all hover:scale-105">
-            <div className="bg-gradient-to-r from-[#3d75ef] to-[#5d8fff] w-16 h-16 rounded-xl flex items-center justify-center mb-6">
+            <div className="bg-gradient-to-r from-[#2b5fcc] to-[#4a7dde] w-16 h-16 rounded-xl flex items-center justify-center mb-6">
               <Search className="text-white" size={32} />
             </div>
             <h3 className="text-xl font-bold text-gray-900 mb-4">
@@ -34,7 +34,7 @@ export default function ContactProcess() {
           </div>
 
           <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all hover:scale-105">
-            <div className="bg-gradient-to-r from-[#3d75ef] to-[#5d8fff] w-16 h-16 rounded-xl flex items-center justify-center mb-6">
+            <div className="bg-gradient-to-r from-[#2b5fcc] to-[#4a7dde] w-16 h-16 rounded-xl flex items-center justify-center mb-6">
               <User className="text-white" size={32} />
             </div>
             <h3 className="text-xl font-bold text-gray-900 mb-4">
@@ -48,7 +48,7 @@ export default function ContactProcess() {
           </div>
 
           <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all hover:scale-105">
-            <div className="bg-gradient-to-r from-[#3d75ef] to-[#5d8fff] w-16 h-16 rounded-xl flex items-center justify-center mb-6">
+            <div className="bg-gradient-to-r from-[#2b5fcc] to-[#4a7dde] w-16 h-16 rounded-xl flex items-center justify-center mb-6">
               <Banknote className="text-white" size={32} />
             </div>
             <h3 className="text-xl font-bold text-gray-900 mb-4">

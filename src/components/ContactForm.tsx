@@ -56,7 +56,7 @@ export default function ContactForm() {
                   required
                   value={formData.name}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:border-[#3d75ef] focus:outline-none transition-colors"
+                  className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:border-[#2b5fcc] focus:outline-none transition-colors"
                   placeholder="John Smith"
                 />
               </div>
@@ -72,7 +72,7 @@ export default function ContactForm() {
                   required
                   value={formData.email}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:border-[#3d75ef] focus:outline-none transition-colors"
+                  className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:border-[#2b5fcc] focus:outline-none transition-colors"
                   placeholder="john@company.com"
                 />
               </div>
@@ -89,7 +89,7 @@ export default function ContactForm() {
                   name="phone"
                   value={formData.phone}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:border-[#3d75ef] focus:outline-none transition-colors"
+                  className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:border-[#2b5fcc] focus:outline-none transition-colors"
                   placeholder="01642 057 445"
                 />
               </div>
@@ -104,7 +104,7 @@ export default function ContactForm() {
                   name="company_name"
                   value={formData.company_name}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:border-[#3d75ef] focus:outline-none transition-colors"
+                  className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:border-[#2b5fcc] focus:outline-none transition-colors"
                   placeholder="Your Company Ltd"
                 />
               </div>
@@ -121,7 +121,7 @@ export default function ContactForm() {
                 value={formData.message}
                 onChange={handleChange}
                 rows={6}
-                className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:border-[#3d75ef] focus:outline-none transition-colors resize-none"
+                className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:border-[#2b5fcc] focus:outline-none transition-colors resize-none"
                 placeholder="Tell us about your funding needs or ask any questions..."
               />
             </div>
@@ -136,7 +136,7 @@ export default function ContactForm() {
 
             <button
               type="submit"
-              className="w-full bg-[#3d75ef] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#2d5fd0] transition-all hover:shadow-xl hover:scale-105 inline-flex items-center justify-center space-x-3"
+              className="w-full bg-[#2b5fcc] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#1e4ba8] transition-all hover:shadow-xl hover:scale-105 inline-flex items-center justify-center space-x-3"
             >
               <span>Send Message</span>
               <Send size={20} />

@@ -53,7 +53,7 @@ export default function ProductBenefits() {
               key={index}
               className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all hover:scale-105"
             >
-              <div className="bg-[#3d75ef] w-16 h-16 rounded-xl flex items-center justify-center mb-6">
+              <div className="bg-[#2b5fcc] w-16 h-16 rounded-xl flex items-center justify-center mb-6">
                 <benefit.icon className="text-white" size={28} />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">

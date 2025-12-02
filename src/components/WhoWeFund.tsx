@@ -15,19 +15,19 @@ export default function WhoWeFund() {
 
         <div className="grid md:grid-cols-3 gap-6 mb-12">
           <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg text-center hover:shadow-xl transition-all hover:scale-105">
-            <CheckCircle2 className="text-[#3d75ef] mx-auto mb-4" size={48} />
+            <CheckCircle2 className="text-[#2b5fcc] mx-auto mb-4" size={48} />
             <p className="text-2xl font-bold text-gray-900 mb-2">6 Months</p>
             <p className="text-gray-600 font-semibold">Minimum Trading</p>
           </div>
 
           <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg text-center hover:shadow-xl transition-all hover:scale-105">
-            <CheckCircle2 className="text-[#3d75ef] mx-auto mb-4" size={48} />
+            <CheckCircle2 className="text-[#2b5fcc] mx-auto mb-4" size={48} />
             <p className="text-2xl font-bold text-gray-900 mb-2">25%</p>
             <p className="text-gray-600 font-semibold">Minimum Ownership</p>
           </div>
 
           <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg text-center hover:shadow-xl transition-all hover:scale-105">
-            <CheckCircle2 className="text-[#3d75ef] mx-auto mb-4" size={48} />
+            <CheckCircle2 className="text-[#2b5fcc] mx-auto mb-4" size={48} />
             <p className="text-2xl font-bold text-gray-900 mb-2">£4,000+</p>
             <p className="text-gray-600 font-semibold">Monthly Revenue</p>
           </div>
@@ -37,7 +37,7 @@ export default function WhoWeFund() {
           <p className="text-lg text-gray-700 mb-2">
             If you meet the above, you're likely eligible for fast funding—
           </p>
-          <p className="text-xl font-bold text-[#3d75ef]">
+          <p className="text-xl font-bold text-[#2b5fcc]">
             without affecting your credit score.
           </p>
         </div>

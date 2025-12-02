@@ -42,7 +42,7 @@ export default function WhoWeAre() {
                 key={index}
                 className="flex items-center space-x-4 bg-gradient-to-r from-blue-50 to-white p-6 rounded-xl hover:shadow-lg transition-all hover:scale-105"
               >
-                <div className="bg-[#3d75ef] w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0">
+                <div className="bg-[#2b5fcc] w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0">
                   <feature.icon className="text-white" size={24} />
                 </div>
                 <p className="text-lg font-semibold text-gray-900">{feature.text}</p>

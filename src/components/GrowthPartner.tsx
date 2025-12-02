@@ -4,7 +4,7 @@ export default function GrowthPartner() {
   return (
     <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
       <div className="max-w-7xl mx-auto">
-        <div className="bg-gradient-to-br from-[#3d75ef] to-[#5d8fff] rounded-3xl p-12 lg:p-16 text-white shadow-2xl">
+        <div className="bg-gradient-to-br from-[#2b5fcc] to-[#4a7dde] rounded-3xl p-12 lg:p-16 text-white shadow-2xl">
           <div className="max-w-4xl mx-auto text-center mb-12">
             <h2 className="text-4xl lg:text-5xl font-bold mb-6">
               More Than a Lender – Your Growth Partner

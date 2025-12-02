@@ -17,7 +17,7 @@ export default function Hero() {
           <div className="space-y-6">
             <h1 className="text-5xl lg:text-7xl font-bold text-white leading-tight drop-shadow-lg">
               Fast, Flexible Business Loans for{' '}
-              <span className="text-[#3d75ef]">UK SMEs</span>
+              <span className="text-[#2b5fcc]">UK SMEs</span>
             </h1>
             <p className="text-2xl text-white leading-relaxed drop-shadow-md">
               Funding direct from the lender, decisions in hours, not weeks.
@@ -32,19 +32,19 @@ export default function Hero() {
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-4xl mx-auto">
             <div className="flex items-center justify-center space-x-3 bg-white/95 backdrop-blur-sm p-4 rounded-xl shadow-lg">
-              <CheckCircle2 className="text-[#3d75ef] flex-shrink-0" size={24} />
+              <CheckCircle2 className="text-[#2b5fcc] flex-shrink-0" size={24} />
               <p className="font-semibold text-gray-900 text-sm">Quick and simple online application</p>
             </div>
             <div className="flex items-center justify-center space-x-3 bg-white/95 backdrop-blur-sm p-4 rounded-xl shadow-lg">
-              <Shield className="text-[#3d75ef] flex-shrink-0" size={24} />
+              <Shield className="text-[#2b5fcc] flex-shrink-0" size={24} />
               <p className="font-semibold text-gray-900 text-sm">All credit profiles considered</p>
             </div>
             <div className="flex items-center justify-center space-x-3 bg-white/95 backdrop-blur-sm p-4 rounded-xl shadow-lg">
-              <Clock className="text-[#3d75ef] flex-shrink-0" size={24} />
+              <Clock className="text-[#2b5fcc] flex-shrink-0" size={24} />
               <p className="font-semibold text-gray-900 text-sm">Same-day funding available</p>
             </div>
             <div className="flex items-center justify-center space-x-3 bg-white/95 backdrop-blur-sm p-4 rounded-xl shadow-lg">
-              <Users className="text-[#3d75ef] flex-shrink-0" size={24} />
+              <Users className="text-[#2b5fcc] flex-shrink-0" size={24} />
               <p className="font-semibold text-gray-900 text-sm">Dedicated account support</p>
             </div>
           </div>
@@ -54,7 +54,7 @@ export default function Hero() {
               href="https://www.simplyfunded.co.uk/application/"
               target="_blank"
               rel="noopener noreferrer"
-              className="group bg-[#3d75ef] text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#2d5fd0] transition-all hover:shadow-2xl hover:scale-105 flex items-center justify-center space-x-2"
+              className="group bg-[#2b5fcc] text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#1e4ba8] transition-all hover:shadow-2xl hover:scale-105 flex items-center justify-center space-x-2"
             >
               <span>Apply in 60 Seconds</span>
               <ArrowRight className="group-hover:translate-x-1 transition-transform" size={20} />
@@ -63,7 +63,7 @@ export default function Hero() {
               href="https://www.simplyfunded.co.uk/application/"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white text-[#3d75ef] border-2 border-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#3d75ef] hover:text-white hover:border-[#3d75ef] transition-all hover:shadow-2xl hover:scale-105 text-center"
+              className="bg-white text-[#2b5fcc] border-2 border-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#2b5fcc] hover:text-white hover:border-[#2b5fcc] transition-all hover:shadow-2xl hover:scale-105 text-center"
             >
               Check Eligibility
             </a>

@@ -99,7 +99,7 @@ export default function FAQAccordion() {
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="bg-white border-2 border-gray-200 rounded-2xl overflow-hidden hover:border-[#3d75ef] transition-all"
+              className="bg-white border-2 border-gray-200 rounded-2xl overflow-hidden hover:border-[#2b5fcc] transition-all"
             >
               <button
                 onClick={() => toggleFAQ(index)}
@@ -109,7 +109,7 @@ export default function FAQAccordion() {
                   {faq.question}
                 </h3>
                 <ChevronDown
-                  className={`text-[#3d75ef] flex-shrink-0 transition-transform ${
+                  className={`text-[#2b5fcc] flex-shrink-0 transition-transform ${
                     openIndex === index ? 'rotate-180' : ''
                   }`}
                   size={24}

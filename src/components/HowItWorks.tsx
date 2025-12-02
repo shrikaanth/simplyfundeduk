@@ -17,7 +17,7 @@ export default function HowItWorks() {
           <div className="relative">
             <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all hover:scale-105">
               <div className="absolute -top-6 left-8">
-                <div className="bg-gradient-to-r from-[#3d75ef] to-[#5d8fff] w-16 h-16 rounded-xl flex items-center justify-center shadow-lg">
+                <div className="bg-gradient-to-r from-[#2b5fcc] to-[#4a7dde] w-16 h-16 rounded-xl flex items-center justify-center shadow-lg">
                   <FileText className="text-white" size={32} />
                 </div>
               </div>
@@ -29,13 +29,13 @@ export default function HowItWorks() {
                 </p>
               </div>
             </div>
-            <div className="hidden md:block absolute top-1/2 -right-4 w-8 h-0.5 bg-gradient-to-r from-[#3d75ef] to-transparent"></div>
+            <div className="hidden md:block absolute top-1/2 -right-4 w-8 h-0.5 bg-gradient-to-r from-[#2b5fcc] to-transparent"></div>
           </div>
 
           <div className="relative">
             <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all hover:scale-105">
               <div className="absolute -top-6 left-8">
-                <div className="bg-gradient-to-r from-[#3d75ef] to-[#5d8fff] w-16 h-16 rounded-xl flex items-center justify-center shadow-lg">
+                <div className="bg-gradient-to-r from-[#2b5fcc] to-[#4a7dde] w-16 h-16 rounded-xl flex items-center justify-center shadow-lg">
                   <Search className="text-white" size={32} />
                 </div>
               </div>
@@ -47,13 +47,13 @@ export default function HowItWorks() {
                 </p>
               </div>
             </div>
-            <div className="hidden md:block absolute top-1/2 -right-4 w-8 h-0.5 bg-gradient-to-r from-[#3d75ef] to-transparent"></div>
+            <div className="hidden md:block absolute top-1/2 -right-4 w-8 h-0.5 bg-gradient-to-r from-[#2b5fcc] to-transparent"></div>
           </div>
 
           <div className="relative">
             <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all hover:scale-105">
               <div className="absolute -top-6 left-8">
-                <div className="bg-gradient-to-r from-[#3d75ef] to-[#5d8fff] w-16 h-16 rounded-xl flex items-center justify-center shadow-lg">
+                <div className="bg-gradient-to-r from-[#2b5fcc] to-[#4a7dde] w-16 h-16 rounded-xl flex items-center justify-center shadow-lg">
                   <Banknote className="text-white" size={32} />
                 </div>
               </div>
@@ -69,7 +69,7 @@ export default function HowItWorks() {
         </div>
 
         <div className="text-center">
-          <button className="bg-[#3d75ef] text-white px-10 py-5 rounded-xl font-bold text-lg hover:bg-[#2d5fd0] transition-all hover:shadow-xl hover:scale-105">
+          <button className="bg-[#2b5fcc] text-white px-10 py-5 rounded-xl font-bold text-lg hover:bg-[#1e4ba8] transition-all hover:shadow-xl hover:scale-105">
             Start Your Application
           </button>
         </div>

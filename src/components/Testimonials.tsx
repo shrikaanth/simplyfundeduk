@@ -32,7 +32,7 @@ export default function Testimonials() {
           </div>
 
           <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg text-center flex flex-col items-center justify-center">
-            <Shield className="text-[#3d75ef] mb-4" size={48} />
+            <Shield className="text-[#2b5fcc] mb-4" size={48} />
             <p className="text-xl font-bold text-gray-900">
               Applying won't affect your credit score!
             </p>

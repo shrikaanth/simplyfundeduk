@@ -13,10 +13,10 @@ export default function FAQProcess() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all hover:scale-105 text-center">
-            <div className="bg-gradient-to-r from-[#3d75ef] to-[#5d8fff] w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-6">
+            <div className="bg-gradient-to-r from-[#2b5fcc] to-[#4a7dde] w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-6">
               <FileText className="text-white" size={32} />
             </div>
-            <div className="text-6xl font-bold text-[#3d75ef]/10 mb-4">01</div>
+            <div className="text-6xl font-bold text-[#2b5fcc]/10 mb-4">01</div>
             <h3 className="text-xl font-bold text-gray-900 mb-3">
               Quick Online Application
             </h3>
@@ -26,10 +26,10 @@ export default function FAQProcess() {
           </div>
 
           <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all hover:scale-105 text-center">
-            <div className="bg-gradient-to-r from-[#3d75ef] to-[#5d8fff] w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-6">
+            <div className="bg-gradient-to-r from-[#2b5fcc] to-[#4a7dde] w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-6">
               <Search className="text-white" size={32} />
             </div>
-            <div className="text-6xl font-bold text-[#3d75ef]/10 mb-4">02</div>
+            <div className="text-6xl font-bold text-[#2b5fcc]/10 mb-4">02</div>
             <h3 className="text-xl font-bold text-gray-900 mb-3">
               Fast Underwriting
             </h3>
@@ -39,10 +39,10 @@ export default function FAQProcess() {
           </div>
 
           <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all hover:scale-105 text-center">
-            <div className="bg-gradient-to-r from-[#3d75ef] to-[#5d8fff] w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-6">
+            <div className="bg-gradient-to-r from-[#2b5fcc] to-[#4a7dde] w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-6">
               <Phone className="text-white" size={32} />
             </div>
-            <div className="text-6xl font-bold text-[#3d75ef]/10 mb-4">03</div>
+            <div className="text-6xl font-bold text-[#2b5fcc]/10 mb-4">03</div>
             <h3 className="text-xl font-bold text-gray-900 mb-3">
               Quick Call for Support
             </h3>
@@ -52,10 +52,10 @@ export default function FAQProcess() {
           </div>
 
           <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all hover:scale-105 text-center">
-            <div className="bg-gradient-to-r from-[#3d75ef] to-[#5d8fff] w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-6">
+            <div className="bg-gradient-to-r from-[#2b5fcc] to-[#4a7dde] w-16 h-16 rounded-xl flex items-center justify-center mx-auto mb-6">
               <Banknote className="text-white" size={32} />
             </div>
-            <div className="text-6xl font-bold text-[#3d75ef]/10 mb-4">04</div>
+            <div className="text-6xl font-bold text-[#2b5fcc]/10 mb-4">04</div>
             <h3 className="text-xl font-bold text-gray-900 mb-3">
               Funding Within 24 Hours
             </h3>

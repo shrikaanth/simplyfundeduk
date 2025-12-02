@@ -10,20 +10,20 @@ export default function Header() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center">
-            <Link to="/" className="text-2xl font-bold text-[#3d75ef]">SimplyFunded</Link>
+            <Link to="/" className="text-2xl font-bold text-[#2b5fcc]">SimplyFunded</Link>
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
-            <Link to="/" className="text-gray-700 hover:text-[#3d75ef] transition-colors font-medium">Home</Link>
-            <Link to="/about" className="text-gray-700 hover:text-[#3d75ef] transition-colors font-medium">About Us</Link>
-            <Link to="/products" className="text-gray-700 hover:text-[#3d75ef] transition-colors font-medium">Products</Link>
-            <Link to="/faq" className="text-gray-700 hover:text-[#3d75ef] transition-colors font-medium">FAQ</Link>
-            <Link to="/contact" className="text-gray-700 hover:text-[#3d75ef] transition-colors font-medium">Contact</Link>
+            <Link to="/" className="text-gray-700 hover:text-[#2b5fcc] transition-colors font-medium">Home</Link>
+            <Link to="/about" className="text-gray-700 hover:text-[#2b5fcc] transition-colors font-medium">About Us</Link>
+            <Link to="/products" className="text-gray-700 hover:text-[#2b5fcc] transition-colors font-medium">Products</Link>
+            <Link to="/faq" className="text-gray-700 hover:text-[#2b5fcc] transition-colors font-medium">FAQ</Link>
+            <Link to="/contact" className="text-gray-700 hover:text-[#2b5fcc] transition-colors font-medium">Contact</Link>
             <a
               href="https://www.simplyfunded.co.uk/application/"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-[#3d75ef] text-white px-6 py-2.5 rounded-lg font-semibold hover:bg-[#2d5fd0] transition-all hover:shadow-lg hover:scale-105"
+              className="bg-[#2b5fcc] text-white px-6 py-2.5 rounded-lg font-semibold hover:bg-[#1e4ba8] transition-all hover:shadow-lg hover:scale-105"
             >
               Apply Now
             </a>
@@ -39,16 +39,16 @@ export default function Header() {
 
         {isMenuOpen && (
           <div className="md:hidden pb-6 space-y-4">
-            <Link to="/" className="block text-gray-700 hover:text-[#3d75ef] transition-colors font-medium">Home</Link>
-            <Link to="/about" className="block text-gray-700 hover:text-[#3d75ef] transition-colors font-medium">About Us</Link>
-            <Link to="/products" className="block text-gray-700 hover:text-[#3d75ef] transition-colors font-medium">Products</Link>
-            <Link to="/faq" className="block text-gray-700 hover:text-[#3d75ef] transition-colors font-medium">FAQ</Link>
-            <Link to="/contact" className="block text-gray-700 hover:text-[#3d75ef] transition-colors font-medium">Contact</Link>
+            <Link to="/" className="block text-gray-700 hover:text-[#2b5fcc] transition-colors font-medium">Home</Link>
+            <Link to="/about" className="block text-gray-700 hover:text-[#2b5fcc] transition-colors font-medium">About Us</Link>
+            <Link to="/products" className="block text-gray-700 hover:text-[#2b5fcc] transition-colors font-medium">Products</Link>
+            <Link to="/faq" className="block text-gray-700 hover:text-[#2b5fcc] transition-colors font-medium">FAQ</Link>
+            <Link to="/contact" className="block text-gray-700 hover:text-[#2b5fcc] transition-colors font-medium">Contact</Link>
             <a
               href="https://www.simplyfunded.co.uk/application/"
               target="_blank"
               rel="noopener noreferrer"
-              className="block w-full bg-[#3d75ef] text-white px-6 py-2.5 rounded-lg font-semibold hover:bg-[#2d5fd0] transition-all text-center"
+              className="block w-full bg-[#2b5fcc] text-white px-6 py-2.5 rounded-lg font-semibold hover:bg-[#1e4ba8] transition-all text-center"
             >
               Apply Now
             </a>

@@ -2,7 +2,7 @@ import { ArrowRight, Phone } from 'lucide-react';
 
 export default function ProductCTA() {
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#3d75ef] to-[#5d8fff]">
+    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#2b5fcc] to-[#4a7dde]">
       <div className="max-w-4xl mx-auto text-center text-white">
         <h2 className="text-4xl lg:text-5xl font-bold mb-6">
           Get Fast, Flexible Funding Today
@@ -17,7 +17,7 @@ export default function ProductCTA() {
             href="https://www.simplyfunded.co.uk/application/"
             target="_blank"
             rel="noopener noreferrer"
-            className="group bg-white text-[#3d75ef] px-10 py-5 rounded-xl font-bold text-lg hover:bg-gray-50 transition-all hover:shadow-2xl hover:scale-105 inline-flex items-center justify-center space-x-3"
+            className="group bg-white text-[#2b5fcc] px-10 py-5 rounded-xl font-bold text-lg hover:bg-gray-50 transition-all hover:shadow-2xl hover:scale-105 inline-flex items-center justify-center space-x-3"
           >
             <span>Apply in 60 Seconds</span>
             <ArrowRight className="group-hover:translate-x-1 transition-transform" size={20} />
@@ -25,7 +25,7 @@ export default function ProductCTA() {
 
           <a
             href="tel:01642057445"
-            className="bg-transparent border-2 border-white text-white px-10 py-5 rounded-xl font-bold text-lg hover:bg-white hover:text-[#3d75ef] transition-all hover:shadow-2xl hover:scale-105 inline-flex items-center justify-center space-x-3"
+            className="bg-transparent border-2 border-white text-white px-10 py-5 rounded-xl font-bold text-lg hover:bg-white hover:text-[#2b5fcc] transition-all hover:shadow-2xl hover:scale-105 inline-flex items-center justify-center space-x-3"
           >
             <Phone size={20} />
             <span>Speak to a Funding Specialist</span>

@@ -15,7 +15,7 @@ export default function AboutProcess() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all hover:scale-105">
-            <div className="bg-gradient-to-r from-[#3d75ef] to-[#5d8fff] w-16 h-16 rounded-xl flex items-center justify-center mb-6 mx-auto">
+            <div className="bg-gradient-to-r from-[#2b5fcc] to-[#4a7dde] w-16 h-16 rounded-xl flex items-center justify-center mb-6 mx-auto">
               <FileText className="text-white" size={32} />
             </div>
             <div className="text-6xl font-bold text-gray-100 text-center mb-4">01</div>
@@ -28,7 +28,7 @@ export default function AboutProcess() {
           </div>
 
           <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all hover:scale-105">
-            <div className="bg-gradient-to-r from-[#3d75ef] to-[#5d8fff] w-16 h-16 rounded-xl flex items-center justify-center mb-6 mx-auto">
+            <div className="bg-gradient-to-r from-[#2b5fcc] to-[#4a7dde] w-16 h-16 rounded-xl flex items-center justify-center mb-6 mx-auto">
               <Search className="text-white" size={32} />
             </div>
             <div className="text-6xl font-bold text-gray-100 text-center mb-4">02</div>
@@ -41,7 +41,7 @@ export default function AboutProcess() {
           </div>
 
           <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all hover:scale-105">
-            <div className="bg-gradient-to-r from-[#3d75ef] to-[#5d8fff] w-16 h-16 rounded-xl flex items-center justify-center mb-6 mx-auto">
+            <div className="bg-gradient-to-r from-[#2b5fcc] to-[#4a7dde] w-16 h-16 rounded-xl flex items-center justify-center mb-6 mx-auto">
               <Phone className="text-white" size={32} />
             </div>
             <div className="text-6xl font-bold text-gray-100 text-center mb-4">03</div>
@@ -54,7 +54,7 @@ export default function AboutProcess() {
           </div>
 
           <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all hover:scale-105">
-            <div className="bg-gradient-to-r from-[#3d75ef] to-[#5d8fff] w-16 h-16 rounded-xl flex items-center justify-center mb-6 mx-auto">
+            <div className="bg-gradient-to-r from-[#2b5fcc] to-[#4a7dde] w-16 h-16 rounded-xl flex items-center justify-center mb-6 mx-auto">
               <Banknote className="text-white" size={32} />
             </div>
             <div className="text-6xl font-bold text-gray-100 text-center mb-4">04</div>
