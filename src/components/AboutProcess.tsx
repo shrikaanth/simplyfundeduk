@@ -23,7 +23,7 @@ export default function AboutProcess() {
               Quick Application
             </h3>
             <p className="text-gray-600 text-center leading-relaxed">
-              Apply in under a minute with basic company information—fast, straightforward, and online.
+              Apply in under a minute with basic company information fast, straightforward, and online.
             </p>
           </div>
 
@@ -62,7 +62,7 @@ export default function AboutProcess() {
               Funding Delivered
             </h3>
             <p className="text-gray-600 text-center leading-relaxed">
-              Receive funds within 24 hours—ideal for expansions, cashflow support, or new opportunities.
+              Receive funds within 24 hours ideal for expansions, cashflow support, or new opportunities.
             </p>
           </div>
         </div>

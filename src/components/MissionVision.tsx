@@ -19,7 +19,7 @@ export default function MissionVision() {
 
             <p className="text-gray-700 leading-relaxed mb-6">
               We envision a UK where every small and medium-sized business can access the capital they need
-              to grow, innovate, and thrive—without being held back by rigid credit requirements or delays.
+              to grow, innovate, and thrive without being held back by rigid credit requirements or delays.
             </p>
 
             <div className="space-y-4">
@@ -43,7 +43,7 @@ export default function MissionVision() {
 
             <div className="mt-8 p-6 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl">
               <p className="text-gray-800 leading-relaxed italic">
-                We don't see funding as a transaction. We see it as a partnership—and we're committed
+                We don't see funding as a transaction. We see it as a partnership and we're committed
                 to supporting SMEs at every stage.
               </p>
             </div>
@@ -86,7 +86,7 @@ export default function MissionVision() {
 
             <p className="text-gray-700 leading-relaxed">
               By continuously improving our processes and using smarter decision-making systems,
-              we are building a future where SMEs don't just apply for funding—they receive the
+              we are building a future where SMEs don't just apply for funding they receive the
               support, guidance, and clarity they deserve.
             </p>
           </div>

@@ -24,7 +24,7 @@ export default function WhoWeAre() {
             </p>
 
             <p className="text-lg text-gray-700 leading-relaxed">
-              We understand the real challenges SMEs face—irregular cash flow, rapid growth needs,
+              We understand the real challenges SMEs face irregular cash flow, rapid growth needs,
               and limited traditional banking options. Our approach is different: fewer hurdles,
               faster approvals, and human-centered decisions.
             </p>

@@ -9,7 +9,7 @@ export default function AboutCTA() {
         </h2>
         <p className="text-xl leading-relaxed mb-10 opacity-95">
           Whether you're looking to expand, stabilise cashflow, or invest in new opportunities,
-          we provide the funding your business deserves—fast, fair, and flexible.
+          we provide the funding your business deserves fast, fair, and flexible.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -24,7 +24,7 @@ export default function AboutCTA() {
         </div>
 
         <p className="mt-6 text-sm opacity-90 italic">
-          Get £5,000 – £100,000 within 24 hours
+          Get £5,000 to £100,000 within 24 hours
         </p>
       </div>
     </section>

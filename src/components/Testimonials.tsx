@@ -44,7 +44,7 @@ export default function Testimonials() {
             <p className="text-2xl text-gray-700 italic leading-relaxed mb-6">
               "SimplyFunded made the entire process incredibly straightforward. We received our funding within 24 hours, which allowed us to seize a crucial business opportunity. Their team was supportive every step of the way."
             </p>
-            <p className="text-lg font-semibold text-gray-900">— Sarah J., Manchester SME Owner</p>
+            <p className="text-lg font-semibold text-gray-900">Sarah J., Manchester SME Owner</p>
           </div>
         </div>
       </div>

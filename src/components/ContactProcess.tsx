@@ -15,7 +15,7 @@ export default function ContactProcess() {
             <p className="text-gray-600 leading-relaxed">
               Applying for funding with SimplyFunded is quick and hassle-free. Our fast business
               funding process ensures that UK SMEs get the support they need without delays. With
-              our simple online application, you can apply in less than a minute—just enter your
+              our simple online application, you can apply in less than a minute just enter your
               company name, contact details, and funding requirements.
             </p>
           </div>
@@ -42,7 +42,7 @@ export default function ContactProcess() {
             </h3>
             <p className="text-gray-600 leading-relaxed">
               Applying for business funding with SimplyFunded is quick, simple, and hassle-free.
-              Our fast funding application takes less than a minute—just provide your company name,
+              Our fast funding application takes less than a minute just provide your company name,
               contact details, and funding needs.
             </p>
           </div>

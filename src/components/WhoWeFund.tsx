@@ -35,7 +35,7 @@ export default function WhoWeFund() {
 
         <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-8 rounded-2xl text-center">
           <p className="text-lg text-gray-700 mb-2">
-            If you meet the above, you're likely eligible for fast funding—
+            If you meet the above, you're likely eligible for fast funding
           </p>
           <p className="text-xl font-bold text-[#2b5fcc]">
             without affecting your credit score.

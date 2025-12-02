@@ -9,7 +9,7 @@ export default function ProductCTA() {
         </h2>
         <p className="text-xl leading-relaxed mb-10 opacity-95">
           Whether you're expanding, handling cashflow, or managing unexpected costs,
-          SimplyFunded provides the funding your business needs—on your terms and without delays.
+          SimplyFunded provides the funding your business needs on your terms and without delays.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">

@@ -61,7 +61,7 @@ export default function HowItWorks() {
                 <div className="text-6xl font-bold text-gray-100 mb-4">03</div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Get Funded Within 24 Hours</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Money is sent directly to your business bank account — fast, secure, hassle-free.
+                  Money is sent directly to your business bank account fast, secure, hassle-free.
                 </p>
               </div>
             </div>

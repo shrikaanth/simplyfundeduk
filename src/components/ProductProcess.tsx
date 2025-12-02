@@ -81,7 +81,7 @@ export default function ProductProcess() {
                   Funding Paid to Your Account
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Receive funds within 24 hours—simple, fast, and secure.
+                  Receive funds within 24 hours simple, fast, and secure.
                 </p>
               </div>
             </div>

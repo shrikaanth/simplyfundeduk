@@ -10,7 +10,7 @@ export default function AboutHero() {
 
           <p className="text-xl text-white leading-relaxed">
             At SimplyFunded, we believe business finance should be simple.
-            We help UK SMEs access fast, flexible, and transparent funding—without the long waits,
+            We help UK SMEs access fast, flexible, and transparent funding without the long waits,
             heavy paperwork, or unnecessary rejections common with traditional lenders.
           </p>
 
