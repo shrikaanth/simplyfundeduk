@@ -14,7 +14,7 @@ export default function Testimonials() {
           <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg text-center">
             <div className="flex justify-center mb-4">
               {[...Array(5)].map((_, i) => (
-                <Star key={i} className="text-yellow-400 fill-yellow-400" size={24} />
+                <Star key={i} className="text-blue-400 fill-blue-400" size={24} />
               ))}
             </div>
             <p className="text-3xl font-bold text-gray-900 mb-2">4.8/5</p>
@@ -24,7 +24,7 @@ export default function Testimonials() {
           <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg text-center">
             <div className="flex justify-center mb-4">
               {[...Array(5)].map((_, i) => (
-                <Star key={i} className="text-yellow-400 fill-yellow-400" size={24} />
+                <Star key={i} className="text-blue-400 fill-blue-400" size={24} />
               ))}
             </div>
             <p className="text-3xl font-bold text-gray-900 mb-2">4.9/5</p>

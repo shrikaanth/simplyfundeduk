@@ -21,7 +21,7 @@ export default function ProductProcess() {
               <div className="pt-8">
                 <div className="text-7xl font-bold text-[#2b5fcc]/10 mb-4">01</div>
                 <h3 className="text-xl font-bold text-gray-900 mb-4">
-                  Quick & Easy Application
+                  Quick Application
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
                   Apply online in under a minute with basic business information. No long forms or complicated steps.

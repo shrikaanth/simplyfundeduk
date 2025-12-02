@@ -20,7 +20,7 @@ export default function AboutProcess() {
             </div>
             <div className="text-6xl font-bold text-gray-100 text-center mb-4">01</div>
             <h3 className="text-xl font-bold text-gray-900 text-center mb-4">
-              Quick & Easy Application
+              Quick Application
             </h3>
             <p className="text-gray-600 text-center leading-relaxed">
               Apply in under a minute with basic company information—fast, straightforward, and online.
@@ -36,7 +36,7 @@ export default function AboutProcess() {
               Fast Underwriting
             </h3>
             <p className="text-gray-600 text-center leading-relaxed">
-              Once your documents are received, our underwriting team quickly reviews your profile and determines your approved funding amount.
+              Once your documents are received, our underwriting team quickly reviews your profile.
             </p>
           </div>
 

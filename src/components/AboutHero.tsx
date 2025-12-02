@@ -5,7 +5,7 @@ export default function AboutHero() {
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <h1 className="text-5xl lg:text-6xl font-bold text-white leading-tight">
             Funding Delivered Faster,{' '}
-            <span className="text-yellow-300">Direct From the Lender</span>
+            <span className="text-blue-300">Direct From the Lender</span>
           </h1>
 
           <p className="text-xl text-white leading-relaxed">
