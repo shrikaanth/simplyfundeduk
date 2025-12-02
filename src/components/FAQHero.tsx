@@ -7,7 +7,7 @@ export default function FAQHero() {
         </h1>
         <p className="text-xl text-white leading-relaxed">
           Your guide to understanding business loan eligibility, applications, interest, repayments,
-          and how SimplyFunded helps UK SMEs secure fast, flexible funding—often within 24 hours.
+          and how SimplyFunded helps UK SMEs secure fast, flexible funding often within 24 hours.
         </p>
       </div>
     </section>
