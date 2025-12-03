@@ -43,7 +43,7 @@ export default function ProductProcess() {
                   Fast Underwriting & Assessment
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Once your documents are submitted, our underwriting team quickly evaluates your funding potential and confirms your approval.
+                  Once your documents are submitted, our team quickly reviews them and confirms your approval.
                 </p>
               </div>
             </div>
