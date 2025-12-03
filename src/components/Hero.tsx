@@ -7,7 +7,7 @@ export default function Hero() {
         <img
           src="https://ik.imagekit.io/6397z4kdz/Banner.png"
           alt="Business Funding Background"
-          className="w-full h-full object-cover object-center"
+          className="w-full h-full object-cover object-[center_20%]"
         />
         <div className="absolute inset-0 bg-black/30"></div>
       </div>
