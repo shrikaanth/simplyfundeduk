@@ -1,4 +1,5 @@
 import { FileText, Search, Phone, Banknote } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default function ProductProcess() {
   return (
@@ -89,14 +90,12 @@ export default function ProductProcess() {
         </div>
 
         <div className="text-center">
-          <a
-            href="https://www.simplyfunded.co.uk/application/"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            to="/apply"
             className="inline-block bg-[#2b5fcc] text-white px-10 py-5 rounded-xl font-bold text-lg hover:bg-[#1e4ba8] transition-all hover:shadow-xl hover:scale-105"
           >
             Start Application Now
-          </a>
+          </Link>
         </div>
       </div>
     </section>

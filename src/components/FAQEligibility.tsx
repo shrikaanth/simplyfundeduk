@@ -1,4 +1,5 @@
 import { Calendar, UserCheck, TrendingUp, ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default function FAQEligibility() {
   return (
@@ -46,15 +47,13 @@ export default function FAQEligibility() {
         </div>
 
         <div className="text-center">
-          <a
-            href="https://www.simplyfunded.co.uk/application/"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            to="/apply"
             className="group bg-[#2b5fcc] text-white px-10 py-5 rounded-xl font-bold text-lg hover:bg-[#1e4ba8] transition-all hover:shadow-xl hover:scale-105 inline-flex items-center space-x-3"
           >
             <span>Check Eligibility (No Credit Impact)</span>
             <ArrowRight className="group-hover:translate-x-1 transition-transform" size={20} />
-          </a>
+          </Link>
         </div>
       </div>
     </section>

@@ -27,7 +27,7 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-4">Resources</h4>
             <ul className="space-y-2">
               <li><Link to="/contact" className="text-gray-400 hover:text-[#2b5fcc] transition-colors">Contact</Link></li>
-              <li><a href="https://www.simplyfunded.co.uk/application/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#2b5fcc] transition-colors">Apply Now</a></li>
+              <li><Link to="/apply" className="text-gray-400 hover:text-[#2b5fcc] transition-colors">Apply Now</Link></li>
             </ul>
           </div>
 

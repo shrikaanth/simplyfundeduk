@@ -1,4 +1,5 @@
 import { CheckCircle2, ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default function Eligibility() {
   return (
@@ -36,15 +37,13 @@ export default function Eligibility() {
           </div>
 
           <div className="text-center">
-            <a
-              href="https://www.simplyfunded.co.uk/application/"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              to="/apply"
               className="group bg-white text-[#2b5fcc] px-10 py-5 rounded-xl font-bold text-lg hover:bg-gray-50 transition-all hover:shadow-xl hover:scale-105 inline-flex items-center space-x-3"
             >
               <span>Check Your Eligibility</span>
               <ArrowRight className="group-hover:translate-x-1 transition-transform" size={20} />
-            </a>
+            </Link>
             <p className="mt-4 text-sm opacity-90 italic">
               Won't affect your credit score
             </p>

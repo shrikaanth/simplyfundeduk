@@ -1,4 +1,5 @@
 import { ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default function Hero() {
   return (
@@ -29,23 +30,19 @@ export default function Hero() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <a
-                href="https://www.simplyfunded.co.uk/application/"
-                target="_blank"
-                rel="noopener noreferrer"
+              <Link
+                to="/apply"
                 className="group bg-[#2b5fcc] text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#1e4ba8] transition-all hover:shadow-2xl hover:scale-105 flex items-center justify-center space-x-2"
               >
                 <span>Apply in 60 Seconds</span>
                 <ArrowRight className="group-hover:translate-x-1 transition-transform" size={20} />
-              </a>
-              <a
-                href="https://www.simplyfunded.co.uk/application/"
-                target="_blank"
-                rel="noopener noreferrer"
+              </Link>
+              <Link
+                to="/apply"
                 className="bg-white text-[#2b5fcc] border-2 border-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#2b5fcc] hover:text-white hover:border-[#2b5fcc] transition-all hover:shadow-2xl hover:scale-105 text-center"
               >
                 Check Eligibility
-              </a>
+              </Link>
             </div>
           </div>
 

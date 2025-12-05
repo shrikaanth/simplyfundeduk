@@ -1,4 +1,5 @@
 import { ArrowRight, Phone } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default function ProductCTA() {
   return (
@@ -13,15 +14,13 @@ export default function ProductCTA() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-          <a
-            href="https://www.simplyfunded.co.uk/application/"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            to="/apply"
             className="group bg-white text-[#2b5fcc] px-10 py-5 rounded-xl font-bold text-lg hover:bg-gray-50 transition-all hover:shadow-2xl hover:scale-105 inline-flex items-center justify-center space-x-3"
           >
             <span>Apply in 60 Seconds</span>
             <ArrowRight className="group-hover:translate-x-1 transition-transform" size={20} />
-          </a>
+          </Link>
 
           <a
             href="tel:01642057445"

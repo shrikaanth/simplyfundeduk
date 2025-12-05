@@ -25,14 +25,12 @@ export default function Header() {
             <Link to="/about" className="text-gray-700 hover:text-[#2b5fcc] transition-colors font-medium">About Us</Link>
             <Link to="/faq" className="text-gray-700 hover:text-[#2b5fcc] transition-colors font-medium">FAQ</Link>
             <Link to="/contact" className="text-gray-700 hover:text-[#2b5fcc] transition-colors font-medium">Contact</Link>
-            <a
-              href="https://www.simplyfunded.co.uk/application/"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              to="/apply"
               className="bg-[#2b5fcc] text-white px-6 py-2.5 rounded-lg font-semibold hover:bg-[#1e4ba8] transition-all hover:shadow-lg hover:scale-105"
             >
               Apply Now
-            </a>
+            </Link>
           </div>
 
           <button
@@ -50,14 +48,12 @@ export default function Header() {
             <Link to="/about" className="block text-gray-700 hover:text-[#2b5fcc] transition-colors font-medium">About Us</Link>
             <Link to="/faq" className="block text-gray-700 hover:text-[#2b5fcc] transition-colors font-medium">FAQ</Link>
             <Link to="/contact" className="block text-gray-700 hover:text-[#2b5fcc] transition-colors font-medium">Contact</Link>
-            <a
-              href="https://www.simplyfunded.co.uk/application/"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              to="/apply"
               className="block w-full bg-[#2b5fcc] text-white px-6 py-2.5 rounded-lg font-semibold hover:bg-[#1e4ba8] transition-all text-center"
             >
               Apply Now
-            </a>
+            </Link>
           </div>
         )}
       </nav>

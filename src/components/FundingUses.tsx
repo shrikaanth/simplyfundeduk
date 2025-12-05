@@ -12,6 +12,7 @@ import {
   AlertCircle,
   Wallet
 } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default function FundingUses() {
   const fundingOptions = [
@@ -113,14 +114,12 @@ export default function FundingUses() {
         </div>
 
         <div className="text-center mt-12">
-          <a
-            href="https://www.simplyfunded.co.uk/application/"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            to="/apply"
             className="inline-block bg-[#2b5fcc] text-white px-10 py-5 rounded-xl font-bold text-lg hover:bg-[#1e4ba8] transition-all hover:shadow-xl hover:scale-105"
           >
             Check Eligibility (Won't Affect Credit Score)
-          </a>
+          </Link>
         </div>
       </div>
     </section>
