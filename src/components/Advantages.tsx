@@ -48,7 +48,7 @@ export default function Advantages() {
             Our Core Advantages
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Six powerful reasons why UK SMEs choose SimplyFunded
+            Six powerful reasons why UK small business Choose SimplyFunded
           </p>
         </div>
 

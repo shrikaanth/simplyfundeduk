@@ -13,14 +13,24 @@ export default function AboutCTA() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <button className="group bg-white text-[#2b5fcc] px-10 py-5 rounded-xl font-bold text-lg hover:bg-gray-50 transition-all hover:shadow-2xl hover:scale-105 inline-flex items-center justify-center space-x-3">
+          <a
+            href="https://www.simplyfunded.co.uk/application/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group bg-white text-[#2b5fcc] px-10 py-5 rounded-xl font-bold text-lg hover:bg-gray-50 transition-all hover:shadow-2xl hover:scale-105 inline-flex items-center justify-center space-x-3"
+          >
             <span>Check Your Eligibility</span>
             <ArrowRight className="group-hover:translate-x-1 transition-transform" size={20} />
-          </button>
+          </a>
 
-          <button className="bg-transparent border-2 border-white text-white px-10 py-5 rounded-xl font-bold text-lg hover:bg-white hover:text-[#2b5fcc] transition-all hover:shadow-2xl hover:scale-105">
+          <a
+            href="https://www.simplyfunded.co.uk/application/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-transparent border-2 border-white text-white px-10 py-5 rounded-xl font-bold text-lg hover:bg-white hover:text-[#2b5fcc] transition-all hover:shadow-2xl hover:scale-105 inline-flex items-center justify-center"
+          >
             Start Your Application
-          </button>
+          </a>
         </div>
 
         <p className="mt-6 text-sm opacity-90 italic">

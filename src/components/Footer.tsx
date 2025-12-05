@@ -1,4 +1,5 @@
 import { Phone, MapPin, Mail } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
@@ -15,19 +16,18 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
-              <li><a href="#home" className="text-gray-400 hover:text-[#2b5fcc] transition-colors">Home</a></li>
-              <li><a href="#about" className="text-gray-400 hover:text-[#2b5fcc] transition-colors">About Us</a></li>
-              <li><a href="#products" className="text-gray-400 hover:text-[#2b5fcc] transition-colors">Product</a></li>
-              <li><a href="#faq" className="text-gray-400 hover:text-[#2b5fcc] transition-colors">FAQ</a></li>
+              <li><Link to="/" className="text-gray-400 hover:text-[#2b5fcc] transition-colors">Home</Link></li>
+              <li><Link to="/products" className="text-gray-400 hover:text-[#2b5fcc] transition-colors">Product</Link></li>
+              <li><Link to="/about" className="text-gray-400 hover:text-[#2b5fcc] transition-colors">About Us</Link></li>
+              <li><Link to="/faq" className="text-gray-400 hover:text-[#2b5fcc] transition-colors">FAQ</Link></li>
             </ul>
           </div>
 
           <div>
             <h4 className="text-lg font-semibold mb-4">Resources</h4>
             <ul className="space-y-2">
-              <li><a href="#blog" className="text-gray-400 hover:text-[#2b5fcc] transition-colors">Blog</a></li>
-              <li><a href="#contact" className="text-gray-400 hover:text-[#2b5fcc] transition-colors">Contact</a></li>
-              <li><a href="#connect" className="text-gray-400 hover:text-[#2b5fcc] transition-colors">Connect</a></li>
+              <li><Link to="/contact" className="text-gray-400 hover:text-[#2b5fcc] transition-colors">Contact</Link></li>
+              <li><a href="https://www.simplyfunded.co.uk/application/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#2b5fcc] transition-colors">Apply Now</a></li>
             </ul>
           </div>
 
@@ -36,7 +36,7 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start space-x-3">
                 <Phone className="text-[#2b5fcc] flex-shrink-0 mt-1" size={18} />
-                <span className="text-gray-400">01642 057 445</span>
+                <a href="tel:01642057445" className="text-gray-400 hover:text-[#2b5fcc] transition-colors">01642 057 445</a>
               </li>
               <li className="flex items-start space-x-3">
                 <MapPin className="text-[#2b5fcc] flex-shrink-0 mt-1" size={18} />
@@ -46,7 +46,7 @@ export default function Footer() {
               </li>
               <li className="flex items-start space-x-3">
                 <Mail className="text-[#2b5fcc] flex-shrink-0 mt-1" size={18} />
-                <span className="text-gray-400">applications@simplyfunded.co.uk</span>
+                <a href="mailto:applications@simplyfunded.co.uk" className="text-gray-400 hover:text-[#2b5fcc] transition-colors">applications@simplyfunded.co.uk</a>
               </li>
             </ul>
           </div>

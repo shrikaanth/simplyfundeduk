@@ -89,9 +89,14 @@ export default function ProductProcess() {
         </div>
 
         <div className="text-center">
-          <button className="bg-[#2b5fcc] text-white px-10 py-5 rounded-xl font-bold text-lg hover:bg-[#1e4ba8] transition-all hover:shadow-xl hover:scale-105">
+          <a
+            href="https://www.simplyfunded.co.uk/application/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-[#2b5fcc] text-white px-10 py-5 rounded-xl font-bold text-lg hover:bg-[#1e4ba8] transition-all hover:shadow-xl hover:scale-105"
+          >
             Start Application Now
-          </button>
+          </a>
         </div>
       </div>
     </section>
