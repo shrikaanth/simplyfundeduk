@@ -346,12 +346,6 @@ export default function ApplicationForm() {
               >
                 Submit Application
               </button>
-              <button
-                type="button"
-                className="sm:w-auto px-10 py-5 border-2 border-gray-300 text-gray-700 rounded-xl font-bold text-lg hover:border-[#2b5fcc] hover:text-[#2b5fcc] transition-all"
-              >
-                Save for Later
-              </button>
             </div>
 
             <p className="text-sm text-gray-500 text-center">

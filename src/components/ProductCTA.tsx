@@ -16,10 +16,10 @@ export default function ProductCTA() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
           <Link
             to="/apply"
-            className="group bg-white text-[#2b5fcc] px-10 py-5 rounded-xl font-bold text-lg hover:bg-gray-50 transition-all hover:shadow-2xl hover:scale-105 inline-flex items-center justify-center space-x-3"
+            className="group bg-white text-[#2b5fcc] px-12 py-6 rounded-xl font-bold text-xl hover:bg-gray-50 transition-all hover:shadow-2xl hover:scale-105 inline-flex items-center justify-center space-x-3 ring-4 ring-white/30"
           >
             <span>Apply in 60 Seconds</span>
-            <ArrowRight className="group-hover:translate-x-1 transition-transform" size={20} />
+            <ArrowRight className="group-hover:translate-x-1 transition-transform" size={24} />
           </Link>
 
           <a

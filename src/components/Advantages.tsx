@@ -1,12 +1,12 @@
-import { DollarSign, Calendar, Headphones, Settings, Key, TrendingUp } from 'lucide-react';
+import { PoundSterling, Calendar, Headphones, Settings, Key, TrendingUp } from 'lucide-react';
 
 export default function Advantages() {
   const advantages = [
     {
-      icon: DollarSign,
+      icon: PoundSterling,
       title: 'No Hidden Fees, 100% Transparent Funding',
       description: 'Clear costs, fixed pricing, and no unexpected charges. What you see is what you pay.',
-      color: 'from-blue-500 to-blue-600'
+      color: 'from-indigo-500 to-indigo-600'
     },
     {
       icon: Calendar,
@@ -18,25 +18,25 @@ export default function Advantages() {
       icon: Headphones,
       title: 'Dedicated SME Support',
       description: 'A UK-based team that understands small business challenges. Personal support throughout the funding journey.',
-      color: 'from-purple-500 to-purple-600'
+      color: 'from-indigo-500 to-indigo-600'
     },
     {
       icon: Settings,
       title: 'Personalised Funding Solutions',
       description: 'Every business is different. We assess your needs and craft a funding plan aligned with your goals.',
-      color: 'from-blue-600 to-indigo-600'
+      color: 'from-indigo-500 to-indigo-600'
     },
     {
       icon: Key,
       title: 'Low-Barrier Approval Process',
       description: 'Unsecured business loans designed for non-homeowners, SMEs with limited collateral, and businesses with mixed credit backgrounds.',
-      color: 'from-indigo-600 to-purple-600'
+      color: 'from-indigo-500 to-indigo-600'
     },
     {
       icon: TrendingUp,
       title: 'Easy Top-Up',
       description: 'Get extra cash when you need it with our instant, hassle-free top-ups. Quick approval, same transparent pricing, designed to keep your business moving.',
-      color: 'from-blue-500 to-indigo-500'
+      color: 'from-indigo-500 to-indigo-600'
     }
   ];
 

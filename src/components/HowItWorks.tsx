@@ -16,16 +16,16 @@ export default function HowItWorks() {
 
         <div className="grid md:grid-cols-3 gap-8 mb-12">
           <div className="relative">
-            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all hover:scale-105">
+            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all hover:scale-105 h-full flex flex-col">
               <div className="absolute -top-6 left-8">
                 <div className="bg-gradient-to-r from-[#2b5fcc] to-[#4a7dde] w-16 h-16 rounded-xl flex items-center justify-center shadow-lg">
                   <FileText className="text-white" size={32} />
                 </div>
               </div>
-              <div className="pt-8">
+              <div className="pt-8 flex-grow flex flex-col">
                 <div className="text-6xl font-bold text-gray-100 mb-4">01</div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Apply Online</h3>
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-gray-600 leading-relaxed flex-grow">
                   Fill out a 60-second application with basic business details.
                 </p>
               </div>
@@ -34,16 +34,16 @@ export default function HowItWorks() {
           </div>
 
           <div className="relative">
-            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all hover:scale-105">
+            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all hover:scale-105 h-full flex flex-col">
               <div className="absolute -top-6 left-8">
                 <div className="bg-gradient-to-r from-[#2b5fcc] to-[#4a7dde] w-16 h-16 rounded-xl flex items-center justify-center shadow-lg">
                   <Search className="text-white" size={32} />
                 </div>
               </div>
-              <div className="pt-8">
+              <div className="pt-8 flex-grow flex flex-col">
                 <div className="text-6xl font-bold text-gray-100 mb-4">02</div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Quick Assessment</h3>
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-gray-600 leading-relaxed flex-grow">
                   Our underwriting team reviews your documents and confirms your funding offer.
                 </p>
               </div>
@@ -52,16 +52,16 @@ export default function HowItWorks() {
           </div>
 
           <div className="relative">
-            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all hover:scale-105">
+            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all hover:scale-105 h-full flex flex-col">
               <div className="absolute -top-6 left-8">
                 <div className="bg-gradient-to-r from-[#2b5fcc] to-[#4a7dde] w-16 h-16 rounded-xl flex items-center justify-center shadow-lg">
                   <Banknote className="text-white" size={32} />
                 </div>
               </div>
-              <div className="pt-8">
+              <div className="pt-8 flex-grow flex flex-col">
                 <div className="text-6xl font-bold text-gray-100 mb-4">03</div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Get Funded Within 24 Hours</h3>
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-gray-600 leading-relaxed flex-grow">
                   Money is sent directly to your business bank account fast, secure, hassle-free.
                 </p>
               </div>

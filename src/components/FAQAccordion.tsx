@@ -39,9 +39,9 @@ const faqs: FAQ[] = [
   {
     question: 'How much business loan can I get?',
     answer: [
-      'Most SMEs can borrow up to one month turnover, typically between £5,000 and £100,000.',
-      'Your exact offer depends on:',
-      '• Monthly revenue\n• Existing loan commitments\n• Business stability and affordability'
+      'Most SMEs can access funding of up to one month\'s turnover, typically ranging from £5,000 to £100,000.',
+      'Your final offer will depend on:',
+      '• Your monthly revenue\n• Existing finance or loan commitments\n• Overall business stability and affordability'
     ]
   },
   {

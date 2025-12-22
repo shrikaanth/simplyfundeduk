@@ -19,8 +19,8 @@ export default function ProductBenefits() {
     },
     {
       icon: Building,
-      title: 'Direct lender (no brokers)',
-      description: 'Work directly with us, no middlemen'
+      title: 'Tailored funding solutions',
+      description: 'Finance structured around your business needs'
     },
     {
       icon: CalendarCheck,
