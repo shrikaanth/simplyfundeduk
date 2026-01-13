@@ -7,13 +7,13 @@ export default function Apply() {
     <div className="min-h-screen flex flex-col">
       <Header />
       <main className="flex-grow">
-        <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#2b5fcc] to-[#4a7dde]">
-          <div className="max-w-4xl mx-auto text-center text-white">
-            <h1 className="text-4xl lg:text-6xl font-bold mb-6">
+        <section className="pt-32 pb-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#2b5fcc] to-[#4a7dde]">
+          <div className="max-w-4xl mx-auto text-center text-white space-y-6">
+            <h1 className="text-4xl lg:text-6xl font-bold mb-8">
               Apply for Business Funding
             </h1>
-            <p className="text-xl leading-relaxed opacity-95 mb-4">
-              Get £5,000 to £100,000 within 24 hours
+            <p className="text-xl leading-relaxed opacity-95 mb-6">
+              Get £3,000.00 to £100,000.00 within 24 hours
             </p>
             <p className="text-lg opacity-90">
               Quick application, Same-day approval, No hidden fees
@@ -31,7 +31,7 @@ export default function Apply() {
               </h2>
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="flex items-start space-x-3">
-                  <div className="bg-green-100 text-green-600 rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 mt-1">
+                  <div className="bg-blue-100 text-[#2b5fcc] rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 mt-1">
                     ✓
                   </div>
                   <div>

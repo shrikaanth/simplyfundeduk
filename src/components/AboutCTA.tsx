@@ -31,7 +31,7 @@ export default function AboutCTA() {
         </div>
 
         <p className="mt-6 text-sm opacity-90 italic">
-          Get £5,000 to £100,000 within 24 hours
+          Get £3,000.00 to £100,000.00 within 24 hours
         </p>
       </div>
     </section>

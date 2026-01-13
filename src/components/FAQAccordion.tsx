@@ -10,7 +10,7 @@ const faqs: FAQ[] = [
   {
     question: 'How do I get a business loan?',
     answer: [
-      'Getting a business loan with SimplyFunded is quick and straightforward. If you are a UK-based limited company generating at least £4,000 monthly revenue, you may already qualify.',
+      'Getting a business loan with SimplyFunded is quick and straightforward. If you are a UK-based limited company generating at least £4,000.00 monthly revenue, you may already qualify.',
       'Just complete our simple online application, connect your business bank for affordability checks, and receive a decision within hours. Once approved, funds can be transferred the same day.'
     ]
   },
@@ -33,13 +33,13 @@ const faqs: FAQ[] = [
     question: 'Can I get a business loan with bad credit?',
     answer: [
       'Yes. We evaluate your business overall performance, monthly revenue, cashflow, activity, not just your credit score.',
-      'If your business earns £4,000+ per month, we may still be able to help. Personal guarantees are accepted to support applications with limited credit history.'
+      'If your business earns £4,000.00+ per month, we may still be able to help. Personal guarantees are accepted to support applications with limited credit history.'
     ]
   },
   {
     question: 'How much business loan can I get?',
     answer: [
-      'Most SMEs can access funding of up to one month\'s turnover, typically ranging from £5,000 to £100,000.',
+      'Most SMEs can access funding of up to one month\'s turnover, typically ranging from £3,000.00 to £100,000.00.',
       'Your final offer will depend on:',
       '• Your monthly revenue\n• Existing finance or loan commitments\n• Overall business stability and affordability'
     ]
@@ -64,7 +64,7 @@ const faqs: FAQ[] = [
     question: 'How easy is it to get a business loan?',
     answer: [
       'Very easy, if your business meets the basic criteria. We require:',
-      '• At least 6 months trading\n• £4,000+ monthly turnover\n• UK limited company status',
+      '• At least 6 months trading\n• £4,000.00+ monthly turnover\n• UK limited company status',
       'Applications take less than a minute, and many clients receive funding within 24 hours.'
     ]
   },
@@ -109,9 +109,8 @@ export default function FAQAccordion() {
                   {faq.question}
                 </h3>
                 <ChevronDown
-                  className={`text-[#2b5fcc] flex-shrink-0 transition-transform ${
-                    openIndex === index ? 'rotate-180' : ''
-                  }`}
+                  className={`text-[#2b5fcc] flex-shrink-0 transition-transform ${openIndex === index ? 'rotate-180' : ''
+                    }`}
                   size={24}
                 />
               </button>

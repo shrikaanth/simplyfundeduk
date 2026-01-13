@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { Building2, User, Mail, Phone, Banknote, Calendar, FileText } from 'lucide-react';
+import { Building2, User, Mail, Phone, Banknote, Calendar, FileText, Search, CheckCircle, AlertCircle, Loader2 } from 'lucide-react';
+import { searchCompany, parseOfficerName, formatAddress } from '../services/companiesHouseService';
 
 export default function ApplicationForm() {
   const [formData, setFormData] = useState({
@@ -19,11 +20,73 @@ export default function ApplicationForm() {
     additionalInfo: ''
   });
 
+  const [companyLookup, setCompanyLookup] = useState({
+    loading: false,
+    error: '',
+    success: false,
+    registeredAddress: ''
+  });
+
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value
     });
+  };
+
+  const handleCompanyLookup = async () => {
+    if (!formData.companyNumber) {
+      setCompanyLookup({
+        loading: false,
+        error: 'Please enter a company number',
+        success: false,
+        registeredAddress: ''
+      });
+      return;
+    }
+
+    setCompanyLookup({
+      loading: true,
+      error: '',
+      success: false,
+      registeredAddress: ''
+    });
+
+    try {
+      const result = await searchCompany(formData.companyNumber);
+
+      // Auto-fill company information
+      const updates: any = {
+        companyName: result.company.company_name,
+      };
+
+      // Get first active director if available
+      const activeOfficers = result.officers.filter(o => !o.resigned_on);
+      if (activeOfficers.length > 0) {
+        const { firstName, lastName } = parseOfficerName(activeOfficers[0].name);
+        updates.firstName = firstName;
+        updates.lastName = lastName;
+      }
+
+      setFormData(prev => ({
+        ...prev,
+        ...updates
+      }));
+
+      setCompanyLookup({
+        loading: false,
+        error: '',
+        success: true,
+        registeredAddress: formatAddress(result.company.registered_office_address)
+      });
+    } catch (error) {
+      setCompanyLookup({
+        loading: false,
+        error: error instanceof Error ? error.message : 'Failed to fetch company information',
+        success: false,
+        registeredAddress: ''
+      });
+    }
   };
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -82,19 +145,67 @@ export default function ApplicationForm() {
                   />
                 </div>
 
-                <div>
+                <div className="md:col-span-2">
                   <label htmlFor="companyNumber" className="block text-sm font-semibold text-gray-700 mb-2">
                     Company Registration Number
                   </label>
-                  <input
-                    type="text"
-                    id="companyNumber"
-                    name="companyNumber"
-                    value={formData.companyNumber}
-                    onChange={handleChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2b5fcc] focus:border-transparent outline-none transition-all"
-                    placeholder="e.g., 12345678"
-                  />
+                  <div className="flex gap-2">
+                    <input
+                      type="text"
+                      id="companyNumber"
+                      name="companyNumber"
+                      value={formData.companyNumber}
+                      onChange={handleChange}
+                      className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2b5fcc] focus:border-transparent outline-none transition-all"
+                      placeholder="e.g., 12345678"
+                    />
+                    <button
+                      type="button"
+                      onClick={handleCompanyLookup}
+                      disabled={companyLookup.loading || !formData.companyNumber}
+                      className="px-6 py-3 bg-[#2b5fcc] text-white rounded-lg font-semibold hover:bg-[#1e4ba8] transition-all disabled:bg-gray-300 disabled:cursor-not-allowed flex items-center space-x-2"
+                    >
+                      {companyLookup.loading ? (
+                        <>
+                          <Loader2 className="animate-spin" size={20} />
+                          <span>Looking up...</span>
+                        </>
+                      ) : (
+                        <>
+                          <Search size={20} />
+                          <span>Lookup</span>
+                        </>
+                      )}
+                    </button>
+                  </div>
+
+                  {/* Status Messages */}
+                  {companyLookup.error && (
+                    <div className="mt-2 flex items-start space-x-2 text-red-600 bg-red-50 p-3 rounded-lg">
+                      <AlertCircle size={20} className="flex-shrink-0 mt-0.5" />
+                      <p className="text-sm">{companyLookup.error}</p>
+                    </div>
+                  )}
+
+                  {companyLookup.success && (
+                    <div className="mt-2 space-y-2">
+                      <div className="flex items-start space-x-2 text-green-600 bg-green-50 p-3 rounded-lg">
+                        <CheckCircle size={20} className="flex-shrink-0 mt-0.5" />
+                        <div className="text-sm">
+                          <p className="font-semibold">Company information found and auto-filled!</p>
+                          {companyLookup.registeredAddress && (
+                            <p className="text-gray-600 mt-1">
+                              <span className="font-medium">Registered Address:</span> {companyLookup.registeredAddress}
+                            </p>
+                          )}
+                        </div>
+                      </div>
+                    </div>
+                  )}
+
+                  <p className="mt-2 text-sm text-gray-500">
+                    Enter your 8-digit company number and click "Lookup" to auto-fill company details
+                  </p>
                 </div>
 
                 <div>
@@ -130,10 +241,10 @@ export default function ApplicationForm() {
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2b5fcc] focus:border-transparent outline-none transition-all"
                   >
                     <option value="">Select monthly revenue</option>
-                    <option value="4000-10000">£4,000 - £10,000</option>
-                    <option value="10000-25000">£10,000 - £25,000</option>
-                    <option value="25000-50000">£25,000 - £50,000</option>
-                    <option value="50000+">£50,000+</option>
+                    <option value="4000-10000">£4,000.00 - £10,000.00</option>
+                    <option value="10000-25000">£10,000.00 - £25,000.00</option>
+                    <option value="25000-50000">£25,000.00 - £50,000.00</option>
+                    <option value="50000+">£50,000.00+</option>
                   </select>
                 </div>
               </div>
@@ -267,11 +378,12 @@ export default function ApplicationForm() {
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2b5fcc] focus:border-transparent outline-none transition-all"
                   >
                     <option value="">Select amount</option>
-                    <option value="5000-10000">£5,000 - £10,000</option>
-                    <option value="10000-25000">£10,000 - £25,000</option>
-                    <option value="25000-50000">£25,000 - £50,000</option>
-                    <option value="50000-75000">£50,000 - £75,000</option>
-                    <option value="75000-100000">£75,000 - £100,000</option>
+                    <option value="3000-5000">£3,000.00 - £5,000.00</option>
+                    <option value="5000-10000">£5,000.00 - £10,000.00</option>
+                    <option value="10000-25000">£10,000.00 - £25,000.00</option>
+                    <option value="25000-50000">£25,000.00 - £50,000.00</option>
+                    <option value="50000-75000">£50,000.00 - £75,000.00</option>
+                    <option value="75000-100000">£75,000.00 - £100,000.00</option>
                   </select>
                 </div>
 

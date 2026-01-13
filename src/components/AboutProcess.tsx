@@ -33,7 +33,7 @@ export default function AboutProcess() {
             </div>
             <div className="text-6xl font-bold text-gray-100 text-center mb-4">02</div>
             <h3 className="text-xl font-bold text-gray-900 text-center mb-4">
-              Fast Underwriting
+              Fast Assessment
             </h3>
             <p className="text-gray-600 text-center leading-relaxed">
               Once your documents are received, our underwriting team quickly reviews your profile.

@@ -41,7 +41,7 @@ export default function ProductProcess() {
               <div className="pt-8">
                 <div className="text-7xl font-bold text-[#2b5fcc]/10 mb-4">02</div>
                 <h3 className="text-xl font-bold text-gray-900 mb-4">
-                  Fast Underwriting & Assessment
+                  Fast Assessment
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
                   Once your documents are submitted, our team quickly reviews them and confirms your approval.

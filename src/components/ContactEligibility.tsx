@@ -37,7 +37,7 @@ export default function ContactEligibility() {
                 <CheckCircle2 className="text-white" size={28} />
               </div>
               <div>
-                <p className="text-gray-900 font-bold text-lg">£4,000</p>
+                <p className="text-gray-900 font-bold text-lg">£4,000.00</p>
                 <p className="text-gray-700">per month minimum revenue</p>
               </div>
             </div>

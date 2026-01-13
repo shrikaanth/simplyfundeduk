@@ -40,7 +40,7 @@ export default function FAQEligibility() {
               <TrendingUp className="text-white" size={36} />
             </div>
             <h3 className="text-2xl font-bold text-gray-900 mb-3">
-              £4,000+
+              £4,000.00+
             </h3>
             <p className="text-gray-600 font-semibold">Monthly Revenue</p>
           </div>

@@ -28,7 +28,7 @@ export default function WhoWeFund() {
 
           <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg text-center hover:shadow-xl transition-all hover:scale-105">
             <CheckCircle2 className="text-[#2b5fcc] mx-auto mb-4" size={48} />
-            <p className="text-2xl font-bold text-gray-900 mb-2">£4,000+</p>
+            <p className="text-2xl font-bold text-gray-900 mb-2">£4,000.00+</p>
             <p className="text-gray-600 font-semibold">Monthly Revenue</p>
           </div>
         </div>

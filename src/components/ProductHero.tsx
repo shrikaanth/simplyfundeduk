@@ -17,7 +17,7 @@ export default function ProductHero() {
 
           <p className="text-lg text-white/90 leading-relaxed">
             Access fast, simple, and unsecured business loans directly from the lender.
-            We help UK SMEs secure £5,000 to £100,000 quickly with approvals in hours and funding within 24 hours.
+            We help UK SMEs secure £3,000.00 to £100,000.00 quickly with approvals in hours and funding within 24 hours.
           </p>
 
           <div className="bg-white p-8 rounded-2xl shadow-lg max-w-2xl mx-auto">

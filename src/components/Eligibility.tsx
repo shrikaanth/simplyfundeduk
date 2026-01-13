@@ -31,7 +31,7 @@ export default function Eligibility() {
             <div className="flex items-start space-x-4 bg-white/10 backdrop-blur-sm p-6 rounded-xl">
               <CheckCircle2 className="flex-shrink-0 mt-1" size={28} />
               <div>
-                <p className="text-xl font-semibold">Minimum £4,000 monthly revenue</p>
+                <p className="text-xl font-semibold">Minimum £4,000.00 monthly revenue</p>
               </div>
             </div>
           </div>

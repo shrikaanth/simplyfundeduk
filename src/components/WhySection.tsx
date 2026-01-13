@@ -48,8 +48,8 @@ export default function WhySection() {
 
         <div className="bg-gradient-to-r from-[#2b5fcc] to-[#4a7dde] p-8 rounded-2xl text-center text-white">
           <p className="text-2xl font-bold mb-2">Typical Borrowing Range</p>
-          <p className="text-4xl font-bold mb-2">£5,000 to £100,000</p>
-          <p className="text-lg opacity-90">For 3 to 12 months</p>
+          <p className="text-4xl font-bold mb-2">£3,000.00 to £100,000.00</p>
+          <p className="text-lg opacity-90">Over a 26 week fixed term</p>
         </div>
       </div>
     </section>

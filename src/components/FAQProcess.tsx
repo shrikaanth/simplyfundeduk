@@ -31,7 +31,7 @@ export default function FAQProcess() {
             </div>
             <div className="text-6xl font-bold text-[#2b5fcc]/10 mb-4">02</div>
             <h3 className="text-xl font-bold text-gray-900 mb-3">
-              Fast Underwriting
+              Fast Assessment
             </h3>
             <p className="text-gray-600 leading-relaxed">
               Our team reviews your documents and confirms your funding offer.

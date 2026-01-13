@@ -32,7 +32,7 @@ export default function ProductCTA() {
         </div>
 
         <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl max-w-2xl mx-auto">
-          <p className="text-lg font-semibold mb-2">Get £5,000 - £100,000 within 24 hours</p>
+          <p className="text-lg font-semibold mb-2">Get £3,000.00 - £100,000.00 within 24 hours</p>
           <p className="text-sm opacity-90">Quick approval, Minimal paperwork, No hidden fees</p>
         </div>
       </div>

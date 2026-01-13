@@ -25,7 +25,7 @@ export default function Hero() {
                 Funding direct from the lender, decisions in hours, not weeks.
               </p>
               <p className="text-2xl font-semibold text-white drop-shadow-md">
-                Get £5,000 - £100,000 within 24 hours.
+                Get £3,000.00 - £100,000.00 within 24 hours.
               </p>
             </div>
 

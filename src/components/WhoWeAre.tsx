@@ -5,7 +5,7 @@ export default function WhoWeAre() {
     { icon: DollarSign, text: 'Clear and upfront pricing' },
     { icon: CheckCircle2, text: 'No hidden fees' },
     { icon: TrendingUp, text: 'Flexible terms' },
-    { icon: Clock, text: 'Fast underwriting' },
+    { icon: Clock, text: 'Fast assessment' },
     { icon: FileText, text: 'Funding in as little as 24 hours' }
   ];
 
